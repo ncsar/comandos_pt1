@@ -1,0 +1,8 @@
+#### comandos para função autocompletar
+#### executar no prompt do anaconda
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextensions install --user
+
+#### executar manualmente na tela inicial do jupyter
+#### na aba nbextensions opção Hinterland
+jupyter nbextension enable hinterland/interland
